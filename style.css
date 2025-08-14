@@ -7,7 +7,7 @@ body {
 
 header.hero {
     background: linear-gradient(rgba(128, 0, 128, 0.6), rgba(128, 0, 128, 0.6)),
-                url('images/ime-slike.jpg') center/cover no-repeat;
+                url('images/pozadina.jpg') center/cover no-repeat;
     color: white;
     height: 100vh;
     display: flex;
