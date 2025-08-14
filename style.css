@@ -6,7 +6,7 @@ body {
 }
 
 header.hero {
-    background-color: pastel purple;
+    background-color: #9932CC;
     color: white;
     height: 100vh;
     display: flex;
