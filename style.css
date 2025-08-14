@@ -84,13 +84,3 @@ footer {
     background: #333;
     color: white;
   }
-
-.profilna {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
