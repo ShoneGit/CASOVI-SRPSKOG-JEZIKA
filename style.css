@@ -284,3 +284,28 @@ footer {
   .menu-toggle:checked + .hamburger + .responsive-menu .main-menu {
     display: flex;
   }
+.meni-i-tekst {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+}
+
+.meni-naslov {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Mobilni prikaz */
+@media (max-width: 768px) {
+  .meni-i-tekst {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .meni-naslov {
+    font-size: 16px;
+  }
