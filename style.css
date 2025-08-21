@@ -309,3 +309,7 @@ footer {
   .meni-naslov {
     font-size: 16px;
   }
+/* Mobilni prikaz menija kada se klikne na hamburger */
+.menu-toggle:checked + .hamburger + .meni-naslov + .responsive-menu .main-menu {
+  display: flex;
+}
